@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "916225500905",
+    "project_id": "welltrack-5766e",
+    "storage_bucket": "welltrack-5766e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916225500905:android:85d9b68d0e5f09e63bf278",
+        "android_client_info": {
+          "package_name": "com.marcomarais.welltrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916225500905-fovbip4phn3mj0it4dp7ndih0j2agoc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marcomarais.welltrack",
+            "certificate_hash": "a669513fa5935568a94f8579cfcd529e6882fc51"
+          }
+        },
+        {
+          "client_id": "916225500905-g18vuhl1ifloktn8f1qct4hpc3ip65v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU6BLYwXG13RzxBxek2Sh6YBvsdpr6fpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916225500905-g18vuhl1ifloktn8f1qct4hpc3ip65v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

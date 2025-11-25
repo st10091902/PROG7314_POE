@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">WellTrack</string>
+    <string name="welltrack_title">WellTrack</string>
+
+    <!-- AUTH -->
+    <string name="sign_in_with_google">Meld aan met Google</string>
+    <string name="sign_in_with_biometrics">Meld aan met biometrie</string>
+    <string name="sign_in">Meld Aan</string>
+    <string name="sign_out">Teken Uit</string>
+    <string name="sign_in_cancelled">Aanmelding gekanselleer</string>
+
+    <!-- BIOMETRICS -->
+    <string name="biometric_prompt_title">Ontgrendel WellTrack</string>
+    <string name="biometric_prompt_subtitle">Gebruik jou vingerafdruk of toestel se skermslot</string>
+    <string name="biometric_not_available">Biometriese verifikasie is nie beskikbaar nie</string>
+    <string name="biometric_failed">Verifikasie het misluk. Probeer weer.</string>
+    <string name="biometric_error">Biometriese fout</string>
+
+    <!-- HOME -->
+    <string name="home_title">WellTrack – Tuis</string>
+    <string name="welcome_back">Welkom terug</string>
+    <string name="today_summary">Vandag se Opsomming</string>
+    <string name="meals_logged">Etens aangeteken</string>
+    <string name="home_search_log_food">Soek / Teken kos aan</string>
+
+    <!-- FOOD SEARCH -->
+    <string name="search_food_placeholder">Soek vir kos…</string>
+    <string name="no_results_found">Geen resultate gevind nie</string>
+    <string name="meal_logged">Ete suksesvol aangeteken</string>
+    <string name="food_search_title">Kos Soektog</string>
+    <string name="food_search_barcode_label">Strepieskode</string>
+    <string name="food_lookup_button">Soek</string>
+    <string name="food_log_meal_button">Teken maaltyd aan</string>
+    <string name="food_lookup_result">%1$s • %2$d kcal</string>
+    <string name="food_logged_offline">Vanlyn aangeteken: %1$s</string>
+    <string name="recent_meals_title">Onlangse maaltye</string>
+    <string name="recent_meal_item">- %1$s • %2$d kcal</string>
+    <string name="barcode_label">Strepieskode</string>
+    <string name="food_logged_result">Vanlyn aangeteken: %1$s</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_title">Instellings</string>
+    <string name="language">Taal</string>
+    <string name="notifications">Kennisgewings</string>
+    <string name="enable_notifications">Aktiveer Kennisgewings</string>
+    <string name="disable_notifications">Deaktiveer Kennisgewings</string>
+    <string name="dark_mode">Donker modus</string>
+    <string name="daily_reminders">Daaglikse herinneringe</string>
+
+    <!-- ERRORS -->
+    <string name="error_prefix">Fout: %1$s</string>
+    <string name="unknown_error">’n Onbekende fout het voorgekom</string>
+    <string name="network_error">Netwerkfout – geen verbinding</string>
+
+    <!-- COMMON -->
+    <string name="loading">Laai…</string>
+    <string name="retry">Probeer Weer</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="ok">OK</string>
+
+</resources>

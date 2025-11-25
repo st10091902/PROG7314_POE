@@ -27,6 +27,20 @@ class AuthViewModel : ViewModel() {
         }
     }
 
+    fun signInWithBiometric(onResult: (Throwable?) -> Unit) {
+        viewModelScope.launch {
+            try {
+                // Biometric auth succeeded → sign user in anonymously
+                val result = auth.signInAnonymously().await()
+                _user.value = result.user
+                onResult(null)
+            } catch (t: Throwable) {
+                onResult(t)
+            }
+        }
+    }
+
+
     fun signOut() {
         auth.signOut()
         _user.value = null

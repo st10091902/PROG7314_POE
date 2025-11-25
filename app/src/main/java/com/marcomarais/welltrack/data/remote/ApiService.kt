@@ -2,16 +2,15 @@ package com.marcomarais.welltrack.data.remote
 
 import retrofit2.http.*
 
-data class FoodDto(
-    val barcode: String,
-    val name: String,
-    val calories: Int,
-    val protein: Double? = null,
-    val carbs: Double? = null,
-    val fat: Double? = null
-)
+
 data class MealDto(val name: String, val calories: Int, val quantity: Int)
 data class CreatedResponse(val id: String)
+data class MealLogRequest(
+    val uid: String,
+    val barcode: String,
+    val name: String,
+    val calories: Int
+)
 
 interface ApiService {
     @GET("foods/{barcode}")

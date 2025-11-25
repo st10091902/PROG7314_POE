@@ -25,6 +25,33 @@ app.get("/foods/:barcode", async (req, res) => {
   res.json(food);
 });
 
+// NEW: log a meal
+app.post("/meals", async (req, res) => {
+  try {
+    const { uid, barcode, name, calories } = req.body;
+
+    if (!uid || !barcode || !name || calories == null) {
+      return res.status(400).json({ error: "Missing fields" });
+    }
+
+    await db
+      .collection("users")
+      .doc(uid)
+      .collection("meals")
+      .add({
+        barcode,
+        name,
+        calories,
+        loggedAt: admin.firestore.FieldValue.serverTimestamp(),
+      });
+
+    return res.status(201).json({ status: "ok" });
+  } catch (e) {
+    console.error(e);
+    return res.status(500).json({ error: "Failed to log meal" });
+  }
+});
+
 // POST /users/:uid/meals
 app.post("/users/:uid/meals", async (req, res) => {
   try {
